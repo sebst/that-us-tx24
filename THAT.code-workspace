@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Backend (C#.NET)",
+			"path": "that-backend"
+		},
+		{
+			"name": "Frontend (React)",
+			"path": "that-frontend"
+		}
+	],
+	"settings": {}
+}
