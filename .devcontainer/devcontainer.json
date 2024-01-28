@@ -1,0 +1,57 @@
+{
+    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+    "name": "dotnet-amd64",
+    "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
+    "overrideCommand": false,
+    "forwardPorts": [
+        8080
+    ],
+    "runArgs": [
+        "--label=com.devcontainerz.type=test",
+        "--shm-size=1g",
+        "--cap-add=SYS_PTRACE",
+        "--security-opt=seccomp=unconfined",
+        "--add-host=host.docker.internal:host-gateway",
+        "--volume=/var/run/docker.sock:/var/run/docker.sock",
+        "--env=GITHUB_USERNAME",
+        "--env=GITHUB_TOKEN",
+        "--env=GH_TOKEN",
+        "--env=OAUTH2_PROXY_CLIENT_ID",
+        "--env=OAUTH2_PROXY_CLIENT_SECRET",
+        "--env=OAUTH2_PROXY_COOKIE_SECRET"
+    ],
+    "features": {
+        "ghcr.io/devcontainerz/features/dpkg-config-global:latest": {},
+        "ghcr.io/devcontainerz/features/dotnet-sdk:latest": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainerz/features/dotnet-sdk-config:latest": {}
+    },
+    "containerEnv": {
+        "WORKDIR": "/workspaces/repo",
+        "_XPRA__debug": "clipboard",
+        "XPRA__debug": "clipboard",
+        "SEBST": "BLA",
+        "SEBST__debug": "BLUBB"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "augustocdias.tasks-shell-input",
+                "spmeesseman.vscode-taskexplorer",
+                "ms-vsliveshare.vsliveshare"
+            ]
+        },
+        "codespaces": {
+            "repositories": {
+                "devcontainerz/features": {
+                    "permissions": {
+                        "packages": "read",
+                        "contents": "read"
+                    }
+                }
+            }
+        }
+    }
+}
