@@ -1,0 +1,6 @@
+@that_us_tx24_HostAddress = http://localhost:5189
+
+GET {{that_us_tx24_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

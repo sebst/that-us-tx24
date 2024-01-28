@@ -23,7 +23,11 @@
     "features": {
         "ghcr.io/devcontainerz/features/dpkg-config-global:latest": {},
         "ghcr.io/devcontainerz/features/fnm:latest": {"version": "latest"},
-        "ghcr.io/devcontainerz/features/fnm-global-node:latest": {"version": "latest"}
+        "ghcr.io/devcontainerz/features/fnm-global-node:latest": {"version": "latest"},
+        "ghcr.io/devcontainerz/features/dotnet-sdk:latest": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainerz/features/dotnet-sdk-config:latest": {}
 
     },
     "containerEnv": {
@@ -39,7 +43,8 @@
                 "esbenp.prettier-vscode",
                 "augustocdias.tasks-shell-input",
                 "spmeesseman.vscode-taskexplorer",
-                "ms-vsliveshare.vsliveshare"
+                "ms-vsliveshare.vsliveshare",
+                "ms-dotnettools.vscode-dotnet-runtime"
             ]
         },
         "codespaces": {
