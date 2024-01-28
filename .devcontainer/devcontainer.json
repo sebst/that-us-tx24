@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "dotnet-amd64",
+    "name": "dotnet-yarn-combined-amd64",
     "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
     "overrideCommand": false,
     "forwardPorts": [
@@ -28,7 +28,6 @@
             "version": "latest"
         },
         "ghcr.io/devcontainerz/features/dotnet-sdk-config:latest": {}
-
     },
     "containerEnv": {
         "WORKDIR": "/workspaces/repo",
