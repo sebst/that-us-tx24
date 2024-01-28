@@ -22,10 +22,8 @@
     ],
     "features": {
         "ghcr.io/devcontainerz/features/dpkg-config-global:latest": {},
-        // "ghcr.io/devcontainerz/features/nodejs:latest": {"version": "latest"},
         "ghcr.io/devcontainerz/features/fnm:latest": {"version": "latest"},
-        "ghcr.io/devcontainerz/features/fnm-global-node:latest": {"version": "latest"},
-        // "ghcr.io/devcontainerz/features/yarn:latest": {"version": "latest"}
+        "ghcr.io/devcontainerz/features/fnm-global-node:latest": {"version": "latest"}
 
     },
     "containerEnv": {
