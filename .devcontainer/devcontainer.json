@@ -43,7 +43,9 @@
                 "augustocdias.tasks-shell-input",
                 "spmeesseman.vscode-taskexplorer",
                 "ms-vsliveshare.vsliveshare",
-                "ms-dotnettools.vscode-dotnet-runtime"
+                "ms-dotnettools.vscode-dotnet-runtime",
+                "ms-dotnettools.csharp",
+                "ms-vscode.vscode-typescript-next"
             ]
         },
         "codespaces": {
