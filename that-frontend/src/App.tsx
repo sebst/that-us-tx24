@@ -36,7 +36,7 @@ function App() {
       <h1>THAT.us Texas 2024</h1>
       <h2>Session List</h2>
       <ul>
-        {sessions.map((session: any) => (
+        {(sessions as any).map((session: any) => (
           <li key={session.id}>{session.title}</li>
         ))}
       </ul>
