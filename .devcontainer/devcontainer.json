@@ -45,6 +45,7 @@
                 "ms-vsliveshare.vsliveshare",
                 "ms-dotnettools.vscode-dotnet-runtime",
                 "ms-dotnettools.csharp",
+                "ms-dotnettools.csdevkit",
                 "ms-vscode.vscode-typescript-next",
                 "zoma.vscode-auto-open-workspace"
             ]
