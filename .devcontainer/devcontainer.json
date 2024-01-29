@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "dotnet-yarn-combined-amd64",
+    "name": "dotnet-yarn-combined-with-database-amd64",
     "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
     "overrideCommand": false,
     "forwardPorts": [
@@ -27,7 +27,9 @@
         "ghcr.io/devcontainerz/features/dotnet-sdk:latest": {
             "version": "latest"
         },
-        "ghcr.io/devcontainerz/features/dotnet-sdk-config:latest": {}
+        "ghcr.io/devcontainerz/features/dotnet-sdk-config:latest": {},
+        "ghcr.io/devcontainerz/features/postgresql:latest": {"version": "latest"},
+        "ghcr.io/devcontainerz/features/s6-service-postgresql:latest": {},
     },
     "containerEnv": {
         "WORKDIR": "/workspaces/repo",
