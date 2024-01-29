@@ -39,6 +39,7 @@
         "ghcr.io/devcontainerz/features/s6-service-xpra:latest": {},
         "ghcr.io/devcontainerz/features/xpra:latest": {},
         "ghcr.io/devcontainerz/features/xpra-config:latest": {},
+        "ghcr.io/devcontainerz/features/that-db-fixtures:latest": {},
     },
     "containerEnv": {
         "WORKDIR": "/workspaces/repo",
