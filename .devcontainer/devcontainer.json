@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "dotnet-yarn-combined-with-database-amd64",
+    "name": "dcc-dotnet-yarn-combined-with-database-and-gui-amd64",
     "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
     "overrideCommand": false,
     "forwardPorts": [
