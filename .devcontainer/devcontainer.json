@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "dotnet-yarn-combined-amd64",
+    "name": "dcc-dotnet-yarn-combined-amd64",
     "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
     "overrideCommand": false,
     "forwardPorts": [
@@ -45,7 +45,7 @@
                 "ms-vsliveshare.vsliveshare",
                 "ms-dotnettools.vscode-dotnet-runtime",
                 "ms-dotnettools.csharp",
-                "ms-dotnettools.csdevkit",
+                // "ms-dotnettools.csdevkit",
                 "ms-vscode.vscode-typescript-next",
                 "zoma.vscode-auto-open-workspace"
             ]
