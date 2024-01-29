@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "dotnet-amd64",
+    "name": "dcc-dotnet-amd64",
     "image": "ghcr.io/devcontainerz/images/saas:latest-amd64",
     "overrideCommand": false,
     "forwardPorts": [
@@ -40,7 +40,8 @@
                 "esbenp.prettier-vscode",
                 "augustocdias.tasks-shell-input",
                 "spmeesseman.vscode-taskexplorer",
-                "ms-vsliveshare.vsliveshare"
+                "ms-vsliveshare.vsliveshare",
+                "ms-dotnettools.csdevkit"
             ]
         },
         "codespaces": {
